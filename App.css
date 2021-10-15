@@ -1,0 +1,91 @@
+body {
+  background-color:lightpink;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color:mediumspringgreen;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+}
+
+.brand {
+  margin-top: 10px;
+  width: 40%;
+  float:left;
+  padding: 5px 40px;
+  color:black;
+  font-family:serif;
+}
+
+.btn {
+  float:right;
+  padding: 8px 30px;
+  margin: 12px 70px;
+  cursor: pointer;
+   background-color: transparent;
+  color:black;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background-color:rgb(231, 247, 95);
+  color: #000000;
+  border-color: 5px solid black;
+  color: rgb(0, 0, 0);
+}
+
+.card {
+  text-align: center;
+  background:lightblue;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 20px;
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 50%;
+  position: relative;
+}
+
+.card:hover {
+  visibility:collapse;
+  opacity: 1;
+  margin-top: 10px;
+  transition-delay: 0.3s;
+}
+.card img {
+  position: absolute;
+  right: 29%;
+ margin: auto;
+  border-radius: 50%;
+  width: 120px;
+  height: 150px;
+  text-align: center;
+  
+}
+
+.card-content {
+  margin-top: 90%;
+  font-size: 23px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
